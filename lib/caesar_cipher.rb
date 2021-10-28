@@ -8,6 +8,3 @@ def caesar_cipher(text, shift)
     letter
   end.join('')
 end
-
-
-p caesar_cipher("I love pancakes", 1)
