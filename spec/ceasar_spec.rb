@@ -9,7 +9,7 @@ describe '#ceasar_cipher' do
     expect(caesar_cipher("aaa", -2)).to eq("yyy")
   end
 
-  it "shifts sentance" do
+  it "shifts sentence" do
     expect(caesar_cipher("I love pancakes", 1)).to eq("J mpwf qbodblft")
   end
 
